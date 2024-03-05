@@ -1,0 +1,93 @@
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 0 50px 0 50px;
+
+    border-bottom: 1px solid black;
+}
+
+.heading {
+    padding: 10px 0 10px 0;
+    margin-bottom: 15px;
+    border-top: 1px solid darkgrey;
+    border-bottom: 1px solid darkgrey;
+    text-align: center;
+}
+
+.floating-right {
+    float: right;
+}
+
+.clear {
+    clear: right;
+}
+
+.fixed-top-right {
+    text-decoration: none;
+    font-size: 0.8rem;
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    padding: 1px 3px 1px 2px;
+    border-radius: 15%;
+    background-color: lightgrey;
+    color: black;
+}
+
+#card > img {
+    width: 200px;
+    float: left;
+    margin-right: 15px;
+}
+
+#card > table td:first-child {
+    text-align: right;
+    font-weight: bold;
+    padding-right: 15px;
+}
+
+#recipe > img:first-of-type {
+    display: block;
+    margin: auto;
+}
+
+#ingredients {
+    margin: 15px 0 15px 0;
+    padding: 15px 0 15px 0;
+    border-top: 1px solid darkgray;
+    border-bottom: 1px solid darkgray;
+}
+
+#ingredients > img {
+    width: 50%;
+    overflow: hidden;
+}
+
+#recipe > table td {
+    width: 100%;
+}
+
+.steps {
+    list-style-type: none;
+    padding: 0;
+}
+
+.steps img {
+    width: calc(50% - 8px);
+}
+
+.steps > li:not(:first-child) img {
+    padding-top: 4px;
+}
+
+.steps > li:not(:last-child) {
+    border-bottom: 1px solid lightgrey;
+}
+
+.steps div:last-child {
+    width: calc(49% - 20px);
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+}
+
